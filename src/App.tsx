@@ -9,15 +9,13 @@ const AppWrapper = styled.div`
   width: 100vw;
   background-color: ${Themes.darkTheme.background};
   display: flex;
-  justify-content: center;
-  align-items:center;
 `
 
 function App() {
   
   return (
     <AppWrapper>
-      <MainScreen title='Memory'/>
+      <MainScreen title='MEMORY'/>
     </AppWrapper>
   )
 }
