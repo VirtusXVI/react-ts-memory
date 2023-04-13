@@ -10,7 +10,7 @@ type State = {
   iteration: number;
 };
 
-export default class MainScreen extends Component<Props, State> {
+export default class HackerEffect extends Component<Props, State> {
   state = {
     titleEffect: this.props.title,
     iteration: 0,
