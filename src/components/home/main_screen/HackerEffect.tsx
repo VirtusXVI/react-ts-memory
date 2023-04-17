@@ -79,7 +79,7 @@ export default class HackerEffect extends Component<Props, State> {
 
     return (
       <Main>
-        <span onMouseEnter={TextEffect}>{this.state.titleEffect}</span>
+        <span onMouseOver={TextEffect}>{this.state.titleEffect}</span>
       </Main>
     );
   }
